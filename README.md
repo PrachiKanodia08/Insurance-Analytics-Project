@@ -17,3 +17,17 @@ total order amounts. The output should include the following columns:
 2. total_ord_amount: The total amount of orders handled by the agent.
 3. ranking: The rank of the agent based on the total order amount, where 1 indicates the agent with the lowest total order amount.
 
+### Problem 2
+*Business Scenario*: The company aims to identify the most financially stable
+customers by finding those with the lowest outstanding amounts in each country.
+This analysis will help the company understand which customers are least likely
+to default on payments. However, it has been noted that data provided by the
+agent named "Mukesh" is not reliable, so any data associated with this agent
+should be excluded from the analysis.
+
+*Task*: Write a SQL query that retrieves the name of the customer with the
+minimum outstanding amount from each country. The output should include the
+following columns:
+1. cust_country: The country of the customer.
+2. cust_name: The name of the customer with the minimum outstanding amount in that country.
+
