@@ -3,7 +3,7 @@ You are working for an insurance company that has a network of agents across dif
 
 ![image](https://github.com/user-attachments/assets/d6808a37-a924-46b6-865a-1516f283a07a)
 
-Problem 1:
+# Problem 1
 **Business Scenario**: The company wants to optimize its operations by identifying
 agents who are underperforming in terms of the total order amounts they are
 handling. Specifically, they need to find the 5 agents with the lowest total order
